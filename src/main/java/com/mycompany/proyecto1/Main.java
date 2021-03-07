@@ -6,6 +6,7 @@
 package com.mycompany.proyecto1;
 
 import java.util.Scanner;
+import java.util.Vector;
 
 /**
  *
@@ -92,6 +93,7 @@ public class Main {
     
     
     public void operaciones(String entrada){
+        ArrayList int numeros vector = new Vector();
         boolean bandera2 = true;
         int contador2 = 0;
         
@@ -100,7 +102,7 @@ public class Main {
         for (int i = 0; i<operarComando.length; i++){
             
             switch (operarComando[i]){
-                case "write":
+                case "":
                     contador2 = i+1;
                     while(bandera2){
                         System.out.println(operarComando[contador2]);
